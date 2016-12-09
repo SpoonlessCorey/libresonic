@@ -51,10 +51,11 @@ In order to build, install, and run Libresonic, you will need:
   * A recent version of [Maven](http://maven.apache.org/).
   * A JDK installation. 1.8.x series of OpenJDK or Oracle JDK 8+ should work.
   * A running [Tomcat](http://tomcat.apache.org/) server. If you're unfamiliar with Tomcat, there are many [guides](https://www.linode.com/docs/websites/frameworks/apache-tomcat-on-ubuntu-16-04) on it.
+  * packages fakeroot and lintian
 
 On a Debian-based system, you can install all these prerequisites at once with:
 
-	apt-get update; apt-get install tomcat8 openjdk-7-jdk maven
+	apt-get update; apt-get install tomcat8 openjdk-8-jdk maven fakeroot lintian
 
 ### Test Your System
 
